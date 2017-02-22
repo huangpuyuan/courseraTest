@@ -12,4 +12,5 @@ STEPS to create a custom filter
 To Use custom filter in JavaScript
 	1.inject filter function registered*NameFilter* into controller
 To Use in HTML -- no need to inject into controller
-	1.{{ expression | registeredName  }}
+	1.{{ expression | registeredName : arg1 : arg2 }}
+	2.{{ expression | filterOne |filterTwo ...}}
