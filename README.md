@@ -31,5 +31,14 @@ lecture 14:
 
 	the digest cycle needs to be kicked off
 
+lecture 15:
+
+	Digest Cylce does not get triggered automatically if events are unaware of Angular
+
+	Solution:
+		1.Call $digest after you custom code 
+		2.Wrap your custon code inside of apply
+		3.Find Angular specific server that handles the same functionality,e.g.,$timeout
+
 
 
