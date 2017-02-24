@@ -40,5 +40,18 @@ lecture 15:
 		2.Wrap your custon code inside of apply
 		3.Find Angular specific server that handles the same functionality,e.g.,$timeout
 
+lecture 16:
+	
+ 	2-Way binding(ng-model) means:双向数据绑定
+		Listener for change on input automatically set up by Angular updates prop value on $scope
 
+		Direct update to prop value is automatically updated in UI
 
+	1-Way binding ({{ prop }}) means:
+		Direct update to prop value is automatically updated in UI
+
+	1-time binding ({{ ::prop }}) means:
+		Initialized(初始化) value of prop is automically updated in UI
+
+		Wactcher for prop is removed,so UI never again gets updated
+	
