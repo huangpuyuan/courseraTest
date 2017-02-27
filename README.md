@@ -1,5 +1,5 @@
 # courseraTest
-_this repo is  FOR using AngularJS。Also using the Nodejs,Git,NPM。and so on._.
+_this repo is  FOR using AngularJS_:a:._Also using the Nodejs,Git,NPM。and so on._.
 
 >JS Minification 最小化: <https://javascript-minifier.com/>
 
@@ -7,7 +7,7 @@ _this repo is  FOR using AngularJS。Also using the Nodejs,Git,NPM。and so on._
 
 >lecture 13: Custom filter 
 
-#####summary:
+#####Summary:
 1. STEPS to create a custom filter:
    1. Define filter factory function
    2. Register filter factory function with module
@@ -82,11 +82,19 @@ _this repo is  FOR using AngularJS。Also using the Nodejs,Git,NPM。and so on._
 ##### Summary:  
 
 1. Array has a special function called filter.
-
 2. Angular has a special filter called 'filter'.Provided a string as 1st argument ,it will filter array it's applied to,matching all string items against the provided one
+3. `ng-repeat="item in collection | filter : searchString"`  
 
-3. `ng-repeat="item in collection | filter : searchString"`
+##Else
+- [x] lecture13
+- [x] lecture14
+- [x] lecture15
+- [ ] lecture16
+- [ ] lecture17
+- [ ] lecture18
 
 
-[^学习Angular Js让我非常愉快 hahaha!!!]: 
+
+
+[^学习Angular Js让我非常愉快 hahaha!!!]: I am so thrilling for it. :love::kiss::blush::+1::
 
